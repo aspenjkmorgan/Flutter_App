@@ -45,5 +45,6 @@ app.*.map.json
 # contain API keys
 /web/index.html
 /functions/.env
+.firebase
 
 
