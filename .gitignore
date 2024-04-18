@@ -42,5 +42,7 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-# ignore web html (contains API key)
+# contain API keys
 /web/index.html
+/functions/index.js
+
