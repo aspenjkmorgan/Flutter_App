@@ -1,10 +1,11 @@
 const {onRequest} = require("firebase-functions/v2/https");
-
-// from example
 const admin = require('firebase-admin');
 
+// hide firebase api key
+const key = process.env.KEY;
+
 const firebaseConfig = {
-    apiKey: "AIzaSyDV7AaU8L2SdCRECCJ_joAXVypBAyW2VHc",
+    apiKey: key,
     authDomain: "hpm-flutter-2.firebaseapp.com",
     projectId: "hpm-flutter-2",
     storageBucket: "hpm-flutter-2.appspot.com",
